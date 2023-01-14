@@ -1,7 +1,20 @@
 # gorm
-My gorm config to general use to mysql, sqlserver and postgres
+My gorm config to general use to mysql, sqlserver and postgres.
+You must need to add the config toml for the env. For example
 
+**mysql.toml
 
-You must need to add the config toml for the env
+with:
 
-# gorm
+[default]
+- host
+- port
+- database
+- user
+- password
+- charset
+- sql_log 
+- time_zone 
+- MaxIdLeConns
+- MaxOpenConns
+
